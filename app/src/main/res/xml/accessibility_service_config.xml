@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- No packageNames filter: the service must see other apps' window changes to remove the
+     blocking overlay when the user leaves Instagram. Packages are filtered in code instead.
+     notificationTimeout="100": the system merges each app's bursts of content changes
+     (Instagram autoplay, counters) instead of delivering every one. -->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged|typeViewClicked"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagReportViewIds|flagIncludeNotImportantViews|flagRetrieveInteractiveWindows"
+    android:canRetrieveWindowContent="true"
+    android:description="@string/shorts_blocker_description"
+    android:notificationTimeout="100" />

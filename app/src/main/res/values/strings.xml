@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AuraFlow</string>
+    <string name="shorts_blocker_label">AuraFlow Shorts Blocker</string>
+    <string name="overlay_title_instagram">Instagram Feed Blocked</string>
+    <string name="overlay_title_tiktok">TikTok Feed Blocked</string>
+    <string name="overlay_title_youtube">YouTube Shorts Blocked</string>
+    <string name="overlay_message_dms">Your DMs are still accessible</string>
+    <string name="overlay_message_focus">Focus Mode Active</string>
+    <string name="overlay_button_instagram">Open DMs</string>
+    <string name="overlay_button_tiktok">Go to Inbox/Profile</string>
+    <string name="overlay_button_youtube">Back to Subscriptions</string>
+    <string name="shorts_blocker_description">Keeps you out of the TikTok For You feed, YouTube Shorts and Instagram Reels while leaving messages usable. Reads screen contents only to detect those feeds; no data is stored or sent anywhere.</string>
+</resources>
