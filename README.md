@@ -1,10 +1,10 @@
-# FocusBlocker
+# AuraFLow
 
 A lightweight Android focus utility that keeps you out of short-form video feeds — Instagram
 Reels and Home, TikTok For You, YouTube Shorts — while leaving the parts of those apps you
 actually need (messages, profiles, search) fully usable.
 
-No root, no VPN, no network access. FocusBlocker runs as an Android Accessibility Service,
+No root, no VPN, no network access. AuraFlow runs as an Android Accessibility Service,
 reads only the view IDs it needs to recognise a feed, and stores nothing but three on/off
 switches.
 
@@ -25,7 +25,7 @@ switches.
 **YouTube:** the Shorts player is covered; regular videos and Subscriptions stay open.
 
 Media is muted while an overlay is up (never during a call, and never unmuted if you muted it
-yourself). Each app can be switched off individually in the FocusBlocker settings screen.
+yourself). Each app can be switched off individually in the AuraFlow settings screen.
 
 ## How it works
 
